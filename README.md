@@ -9,6 +9,7 @@ The purpose of this repository is to use Splinter and BeautifulSoup to retrieve 
 containing mars related news and data and to perform some elementary analysis.
  
 The analysis is done in two separate jupyter notebooks, 'part_1_mars_news.ipynb', and 'part_2_mars_weather.ipynb'. The first notebook uses beautiful soup and chromedriver to retrieve the title and preview of all articles on the webpage above. The second notebook retrieves data from a table from the second webpage above and performs some basic analysis, namely, we calculate the average monthly minimum temperature and the average monthly atmospheric pressure. 
+In the last notebook the data retrieved from the website is also exported as a csv file 'date.csv' contained in this repository.  
 
 
 # Installations
@@ -38,7 +39,8 @@ Finally, for automation of the chrome browser, it is required that Chromedriver 
 
 Once the installation of the above packages is completed, the repository can be downloaded to your local computer and run using VScode or JupyterLab.
 
-# Acknowledgements
+# Contributers
 
-Starter code for both jupyer notebooks and instructions on installations of the required libraries were provided by 
-the Monash Data Analytics Bootcamp.
+The repository, code output and bulk of the code were produced by Jack Hastings, however, starter code for both jupyer notebooks and instructions on installations of the required libraries were provided by 
+the Monash Data Analytics Bootcamp: https://bootcamps.monash.edu/data/.
+
