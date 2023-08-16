@@ -14,6 +14,7 @@ In the last notebook the data retrieved from the website is also exported as a c
 
 # Installations
 
+
 The required libraries to run the two notebooks are,
 
 - Splinter
